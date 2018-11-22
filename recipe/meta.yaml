@@ -15,11 +15,11 @@ source:
   sha256: f1f94578228b7816f4855da10b66e773a79f212e29ba23a03009b3d80714a6b4
 
 build:
-  number: 1
+  noarch: generic
+  number: 1001
   rpaths:
     - lib/R/lib/
     - lib/
-  skip: True  # [win32]
 
 requirements:
   build:
@@ -43,8 +43,7 @@ about:
   license: GPL (>= 3)
   summary: Various Methods for Multivariate Outlier Detection.
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-3'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
 
 extra:
   recipe-maintainers:
