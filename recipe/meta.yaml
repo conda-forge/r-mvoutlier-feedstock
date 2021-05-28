@@ -8,7 +8,6 @@ package:
   version: {{ version|replace("-", "_") }}
 
 source:
-  fn: mvoutlier_{{ version }}.tar.gz
   url:
     - https://cran.r-project.org/src/contrib/mvoutlier_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/mvoutlier/mvoutlier_{{ version }}.tar.gz
@@ -40,7 +39,7 @@ test:
 
 about:
   home: http://cstat.tuwien.ac.at/filz
-  license: GPL (>= 3)
+  license: GPL-3.0-or-later
   summary: Various Methods for Multivariate Outlier Detection.
   license_family: GPL3
   license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
@@ -48,9 +47,3 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - dpryan79
-    - cbrueffer
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
