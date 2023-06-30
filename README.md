@@ -1,11 +1,11 @@
-About r-mvoutlier
-=================
+About r-mvoutlier-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mvoutlier-feedstock/blob/main/LICENSE.txt)
 
 Home: http://cstat.tuwien.ac.at/filz
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mvoutlier-feedstock/blob/main/LICENSE.txt)
 
 Summary: Various Methods for Multivariate Outlier Detection.
 
